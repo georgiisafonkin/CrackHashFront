@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+div {
+  padding: 8px 12px;
+}
+
+button {
+  background-color: white;
+  color: black;
+}
+
+.main-title {
+  padding: 8px 12px;
+  width: 38em;
+  font-family: monospace;
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.hash-box, .hash-input, .check-status, .requests-history {
+  padding: 8px 12px;
+  width: 15em;
+  font-family: monospace;
+  color: white;
+  border: 1px solid white;
+  background-color: black; 
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* центр по горизонтали */
+  align-items: center;      /* центр по вертикали */
+  gap: 30px
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}

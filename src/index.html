@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>CrackHash</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="layout">
+		<div class="main-title">
+			<h1>CrackHash</h1>
+			<p style="border: 1px solid white; padding: 8px 12px; width: 15em; background-color: black;">
+				Welcome to CrackHash - Web application for MD5 hash brute-force.
+				<br>
+				Completed for the course "Distributed Systems" by Georgy Safonkin.
+			</p>
+			<p>
+				<pre>
+					.----------.
+					|          |
+					|          |
+					|          |
+					|          |
+					'----------'
+				</pre>
+			</p>
+			
+		</div>
+		
+		<div class="content">
+			<div class="hash-box">
+				<h2>Enter MD5 Hash and Max Length to brute force</h2>
+	
+				<div class="hash-input">
+					<label>MD5 Hash</label>
+					<input id="hashInput">
+					<label>Maximum Length</label>
+					<input id="maxLengthInput">
+					<button id="StartBtn">Start brute force</button>
+				</div>
+	
+				<h2>Check status of task by ID</h2>
+	
+				<div class="check-status">
+					<label>Request ID</label>
+					<input id="taskIDInput">
+					<button id="statusBtn">Check task status</button>
+
+					<div id="statusResult"></div>
+				</div>
+			</div>
+	
+			<div class="requests-history">
+				<h2>Requests history</h2>
+				<div class="historyul">
+					<ul id="historyList"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/button.js"></script>
+	<script src="js/statusbox.js"></script>
+</body>
+</html>
